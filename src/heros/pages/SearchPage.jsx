@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useLocation, useNavigate } from "react-router-dom";
 import { useForm } from "../../hooks";
 import queryString from "query-string";
@@ -73,10 +72,3 @@ export const SearchPage = () => {
     </>
   );
 };
-=======
-export const SearchPage = () => {
-  return (
-    <div>SearchPage</div>
-  )
-}
->>>>>>> 34fd7d54c45b94f92dea9fd4b197b6a4b45bdb08
