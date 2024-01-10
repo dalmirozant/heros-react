@@ -3,7 +3,7 @@ import { useForm } from "../../hooks";
 import queryString from "query-string";
 import { getHeroesByQuery } from "../helpers";
 import { HeroCard } from "../components";
-import { useCallback, useMemo } from "react";
+import { useCallback } from "react";
 
 export const SearchPage = () => {
   const navigate = useNavigate();
