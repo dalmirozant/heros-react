@@ -8,7 +8,8 @@ export const LoginPage = () => {
 
   const onLogin = () => {
     login("Dalmiro Zantleifer Ojeda");
-    navigate("/", { replace: true });
+    const redirecturi = localStorage.getItem("REDIRECT_URI") ?? "/";
+    navigate(redirecturi, { replace: true });
   };
 
   return (

@@ -31,11 +31,10 @@ export const AuthProvider = ({ children }) => {
   };
 
   const logout = () => {
+    localStorage.removeItem("USER");
     const action = {
       types: types.logout,
     };
-
-    localStorage.removeItem("USER");
 
     dispatch(action);
   };
